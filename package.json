@@ -2,8 +2,12 @@
   "name": "fullstack-typescript-template",
   "version": "1.0.0",
   "description": "Fullstack Typescript Template",
-  "main": "index.js",
   "scripts": {
+    "install": "yarn run install:backend",
+    "install:backend": "cd backend && yarn install",
+    "build": "yarn run build:backend",
+    "build:backend": "cd backend && yarn run build",
+    "start": "cd backend && yarn start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
